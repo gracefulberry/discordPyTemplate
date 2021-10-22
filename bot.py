@@ -23,4 +23,6 @@ async def on_ready():
 
 bot.run(TOKEN)
 
+if __name__ == "__main__":
+   print("debugging")
 

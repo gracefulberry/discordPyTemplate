@@ -1,9 +1,10 @@
-#import startements
+# import startements
 import os
 from dotenv import load_dotenv
 
 from discord.ext import commands
 
+# authenticate token
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 

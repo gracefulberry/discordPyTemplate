@@ -10,7 +10,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='!')
 
-
+# sample command 
 @bot.command(name='temp')
 async def temp_com(ctx):
 
@@ -22,3 +22,5 @@ async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
 
 bot.run(TOKEN)
+
+
